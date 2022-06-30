@@ -1,0 +1,5 @@
+.headTable {
+  background-color: var(--base3) !important;
+  border: none !important;
+  font-weight: bold !important;
+}

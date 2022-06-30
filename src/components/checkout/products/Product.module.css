@@ -1,0 +1,33 @@
+.card {
+  height: 140px;
+  box-shadow: 0px 1px 36px 0px rgba(227, 227, 227, 0.68);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.img {
+  width: 100px;
+  flex: 1;
+  object-fit: cover;
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.content {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content > div {
+  padding: 0;
+}
+
+.total {
+  color: var(--base4);
+}

@@ -1,0 +1,56 @@
+.card {
+  height: 140px;
+  box-shadow: 0px 1px 36px 0px rgba(227, 227, 227, 0.68);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.img {
+  width: 100px;
+  flex: 1;
+  object-fit: cover;
+}
+
+.h1 {
+  font-weight: bold;
+}
+
+.content {
+  flex: 4;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content > div {
+  padding: 0;
+}
+
+.total {
+  color: var(--base4);
+}
+
+.quantity {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+}
+.quantity > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantityContent {
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete {
+  align-self: flex-start;
+}

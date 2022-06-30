@@ -1,0 +1,27 @@
+.headTable {
+  background-color: var(--base3) !important;
+  border: none !important;
+  font-weight: bold !important;
+}
+
+.actions {
+  display: flex !important;
+  justify-content: space-around;
+}
+
+.icon {
+  border-radius: 50%;
+  color: rgb(73, 72, 72);
+  display: flex;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+.icon:hover {
+  background-color: var(--base3);
+  color: var(--base);
+}
+
+.addButton {
+  display: flex;
+  justify-content: flex-end;
+}

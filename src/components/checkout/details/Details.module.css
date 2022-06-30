@@ -1,0 +1,30 @@
+.card {
+  margin-left: 20px;
+  height: fit-content;
+  box-shadow: 0px 1px 36px 0px rgba(227, 227, 227, 0.68);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.content {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.content > div:first-child {
+  margin-right: 30px;
+}
+
+.total {
+  color: var(--base4);
+  font-weight: bold;
+}
+
+@media all and (max-width: 900px) {
+  .card {
+    margin-left: 0;
+  }
+}
